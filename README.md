@@ -1,22 +1,22 @@
-#ReduxTacToe
+# ReduxTacToe
 
-##How to play
+## How to play
 Once you have your server running (see below for instructions), you get multiple tic-tac-tie boards.
 Each board plays independently, with X and O taking turns. Once a player has won, the board will change
 colour and indicate the winner.
 
-###Removing Boards
+### Removing Boards
 Each board has an X icon in the top right corner. Clicking on this icon will remove the board from the page.
 Once a board has been removed, you will not be able to bring it back and the game will be lost.
 
-###Clearing all boards
+### Clearing all boards
 If you want to start over, just click on Clear All Boards. This will reset all the boards.
 
-###Add Board
+### Add Board
 If you would like more boards on your page, click Add Board. This will add one board to the end of the page.
 For multiple boards, click add board as many times as you need.
 
-##Why build this?
+## Why build this?
 I built this project as my first react app using redux.
 
 
