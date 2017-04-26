@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/beleidy/redux-tac-toe.svg?branch=master)](https://travis-ci.org/beleidy/redux-tac-toe)
+
 # ReduxTacToe
 
 ## How to play
