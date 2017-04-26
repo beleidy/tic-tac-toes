@@ -20,7 +20,7 @@ For multiple boards, click add board as many times as you need.
 I built this project as my first react app using redux.
 
 
-This project was started off by using
+This project was started from
 ## React and Redux, Webpack 2 boilerplate
 Please note that I have uninstalled some dependencies, and installed react-redux-router
 I have also made some changes to the webpack configuration file, mainly to use css instead of scss
