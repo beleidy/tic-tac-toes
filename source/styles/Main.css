@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+    box-sizing: border-box;
+}
+
+.site-title{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: #C23B22;
+    font-family: 'Indie Flower', cursive;
+    font-size: 52px;
+}
+
+.grid-control-panel{
+    width: 300px;
+    margin: auto;
+
+}
+
+.add-board-button, .clear-boards-button{
+    width: 40%;
+    margin: 5%;
+    background-color: rgba(203,153,201,0.5);
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+
+.board-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 9px 7px 5px 0px rgba(207,207,196,0.5);
+    border-radius: 10px 10px 10px 10px;
+    border: 1px #CFCFC4 solid;
+    position: relative;
+}
+
+.board-winner-x{
+    background-color: rgba(119, 190, 119, 0.3);
+}
+
+.board-winner-o{
+    background-color: rgba(222, 165, 164, 0.3);
+}
+
+.board-winner-tie{
+  background-color: rgba(207, 207, 196, 0.3);
+}
+.board-remove{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 1px solid #AEC6CF;
+    background-color: #AEC6CF;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.board-info{
+    width: 100%;
+    display: flex;
+    font-size: 28px;
+    padding: 5px 20px;
+}
+
+.board-number{
+    width: 50%;
+}
+
+.board-status{
+    width: 50%;
+    text-align: right;
+}
+
+.board-status-winner{
+    color: #C23B22
+}
+
+
+.board-tiles{
+    width: 100%;
+    height: 300px;
+    font-size: 36px;
+}
+
+.board-row{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.square{
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    border: 1px #AEC6CF solid;
+    text-align: center;
+}
+
+.square-col-0{
+    border-left: none;
+}
+
+.square-col-2{
+    border-right: none;
+}
+
+.square-row-0{
+    border-top: none;
+}
+
+.square-row-2{
+    border-bottom: none;
+}
+
+.square-text{
+    line-height: 100px;
+    height: 100%;
+    width: 100%;
+}

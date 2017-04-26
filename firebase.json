@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "reduxtactoe"
+  },
+  "hosting": {
+    "public": "build",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
