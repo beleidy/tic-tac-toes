@@ -60,11 +60,11 @@ function boards(state = [], action) {
             // If it is, set winner to Tie
             newBoard.winner = 'T';
           }
+          // Toggle next player
+          newBoard.xIsNext = !newBoard.xIsNext;
+          // Return the new state
+          return nextState;
         }
-        // Toggle next player
-        newBoard.xIsNext = !newBoard.xIsNext;
-        // Return the new state
-        return nextState;
       }
       // If none of the conditions to change the state are met, return the state as is
       return state;
